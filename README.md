@@ -23,4 +23,4 @@ So,what this script does it sends out characters to the **bufferspace**  and kee
 
 ## If this Vulnerability is present then the attacker can  overwrite the **EIP** and create a reverse shell and gain access to the system.
 
-#Please only use if you have permissions of the owner of the system that you will test this script on because  it will crash the system.   
+# Please only use if you have permissions of the owner of the system that you will test this script on because  it will crash the system.   
